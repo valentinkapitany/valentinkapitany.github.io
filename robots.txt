@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kapitany.github.io/sitemap.xml
+Sitemap: https://valentinkapitany.github.io/sitemap.xml
