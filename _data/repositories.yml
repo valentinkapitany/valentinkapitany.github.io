@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - valentinkapitany
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - valentinkapitany/SiSIFUS
+  - https://github.com/valentinkapitany/3D_imaging_from_multipath_echoes_simulation_only
+
