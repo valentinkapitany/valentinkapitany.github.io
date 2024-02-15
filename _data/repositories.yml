@@ -4,10 +4,13 @@ github_users:
 
 github_repos:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - valentinkapitany/SiSIFUS
   - valentinkapitany/3D_imaging_from_multipath_echoes_simulation_only
 
 =======
+=======
+>>>>>>> parent of 89c75bb (updated pages)
   - alshedivat/al-folio
   - twbs/bootstrap
   - jekyll/jekyll
@@ -15,4 +18,7 @@ github_repos:
   - FortAwesome/Font-Awesome
   - jpswalsh/academicons
   - mathjax/MathJax
+<<<<<<< HEAD
+>>>>>>> parent of 89c75bb (updated pages)
+=======
 >>>>>>> parent of 89c75bb (updated pages)
