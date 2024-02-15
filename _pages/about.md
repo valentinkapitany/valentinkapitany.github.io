@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -16,11 +16,15 @@ profile:
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
-Hey there! I'm a Research Associate at the University of Glasgow, working with [Prof. Daniele Faccio's](https://www.physics.gla.ac.uk/xtremelight/cv.html) esteemed [Extreme Light](https://www.physics.gla.ac.uk/xtremelight/index.html) research group. My focus lies in AI-based and traditional computer vision for smart microscopy in biomedical research, alongside enhancing edge devices with machine learning for concealed weapon detection and 3D human motion tracking.
+Hi
 
 
-Completing my PhD at the University of Glasgow with Prof. Faccio and [Prof. Murray-Smith](https://www.dcs.gla.ac.uk/~rod/), I explored *"AI for time-resolved imaging: from fluorescence lifetime to single pixel time of flight."* Leveraging deep learning, I extracted spatiotemporal insights from advanced camera technologies to tackle computational super-resolution challenges in the [spatial](https://valentinkapitany.github.io/SiSIFUS/) and [temporal](https://doi.org/10.1103/PhysRevLett.126.174301) dimensions, using my background in optics to [embed physics](https://doi.org/10.1073/pnas.2214617120) into modelling.
+This is some text. Indeed.
 
-Passionate about AI and computer vision, I delve into tasks ranging from super-resolution and image registration to object tracking & zero shot labelling/segmentation, style transfer and conditional image generation. In my spare time, I enjoy tinkering with open-source vision-language models.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
