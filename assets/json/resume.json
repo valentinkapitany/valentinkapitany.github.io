@@ -70,91 +70,53 @@
 
   "education": [
     {
-      "institution": "Edinburgh Tutors Ltd.",
+      "institution": "University of Glasgow",
       "location": "Glasgow, UK",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "url": "https://www.gla.ac.uk/",
+      "area": "Physics",
+      "studyType": "Doctor of Philosophy (Ph.D.)",
+      "startDate": "2019-05-31",
+      "endDate": "2023-03-01",
+      "score": "",
+      "courses": ["Computer vision","Machine Learning","Optics"]
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "University of Glasgow",
+      "location": "Glasgow, UK",
+      "url": "https://www.gla.ac.uk/",
+      "area": "Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015-08-31",
+      "endDate": "2019-05-31",
+      "score": "First-Class Honours (20/22 GPA)",
+      "courses": ["Signal processing","Lasers and Nonlinear Optics","Numerical Methods","Waves and Diffraction"]
+    },
+    {
+      "institution": "Johannes Gutenberg University",
+      "location": "Mainz, Germany",
+      "url": "https://www.uni-mainz.de/en/",
+      "area": "Physics",
+      "studyType": "ERASMUS",
+      "startDate": "2015-09-01",
+      "endDate": "2019-06-30",
+      "score": "N/A",
+      "courses": ["Group Theory","Special Relativity","Python"]
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Project Management Level 3 Award",
+      "date": "2019-10-05",
+      "issuer": "CMI",
+      "url": "https://www.managers.org.uk/",
+      "icon": ""
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Silver Python certificate",
+      "date": "2024-01-10",
+      "issuer": "TestDome",
+      "url": "https://www.testdome.com/certificates/e462f292e02b4f5eb65e9ae9132113e3",
+      "icon": ""
     }
   ],
   "skills": [
@@ -177,7 +139,7 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
+    },
     {
       "language": "German",
       "fluency": "Advanced",
