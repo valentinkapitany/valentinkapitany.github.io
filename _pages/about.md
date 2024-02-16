@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: Picture8.png
+  image: mlis_pic.png
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
