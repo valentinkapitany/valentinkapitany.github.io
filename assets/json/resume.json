@@ -61,8 +61,8 @@
       "name": "University of Glasgow",
       "position": "Intern",
       "url": "https://example.com",
-      "startDate": "2019-01-01",
-      "endDate": "2020-04-01",
+      "startDate": "2018-06-14",
+      "endDate": "2018-08-01",
       "summary": "Developing a Raspberry Pi-based servo-mirror controller",
       "highlights": ["Created a 50-80% cheaper alternative to galvo-mirrors for laser welding."," Built and programmed a point-and-click servo-mirror setup run by a Raspberry Pi."]
     }
