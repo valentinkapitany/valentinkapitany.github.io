@@ -40,7 +40,7 @@
                      "Group projects for low-temperature thermal stabilisation"]
     },    
     {
-      "organization": "Google",
+      "name": "Google",
       "position": "Research Associate",
       "url": "https://example.com",
       "startDate": "2021-03-01",
@@ -49,7 +49,7 @@
       "highlights": ["Achieved world-first AI-based 3D imaging with the low-power 'SOLI' radar, through developing radar readout, optimising data storage and processing, and training then testing 3D scene estimation."]
     },
     {
-      "organization": "Edinburgh Tutors Ltd.",
+      "name": "Edinburgh Tutors Ltd.",
       "position": "Tutor",
       "url": "https://example.com",
       "startDate": "2019-01-01",
@@ -58,7 +58,7 @@
       "highlights": ["Tutored students in undergraduate-level Statistics and A-level Physics."]
     },
     {
-      "organization": "University of Glasgow",
+      "name": "University of Glasgow",
       "position": "Intern",
       "url": "https://example.com",
       "startDate": "2019-01-01",
