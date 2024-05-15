@@ -3,7 +3,7 @@
     "name": "Valentin Kapitany",
     "label": "Researcher, Computer Vision",
     "image": "",
-    "summary": "I specialise in both traditional and machine learning enabled computer vision for smart microscopy as a Research Associate at the University of Glasgow. In parallel, I've enhanced edge devices with AI, notably for concealed weapon detection in smart home security and 3D human motion tracking. In five years of data science, I've refined skills across the spectrum – from developing and deploying data pipelines and ML models, to storytelling through compelling visual narratives. I excel at extracting vital insights from haystacks of data, aiming to mould a more efficient, sustainable, and healthier future.",
+    "summary": ["I am a postdoc at the University of Glasgow, working at the intersection of machine learning, optics and computer vision. My work focuses on low-level image enhancements in smart biomedical microscopy (including image denoising, registration and super-resolution), and on AI explainability in smart 3D imaging and object detection (e.g. tracking information flow, identifying and removing data leakage)."],
     "email": "kapitanyv@gmail.com",
     "profiles": [
       {
