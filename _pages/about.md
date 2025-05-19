@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -18,9 +18,10 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-Hey there! I'm a Research Associate at the University of Glasgow, working with [Prof. Daniele Faccio's](https://www.physics.gla.ac.uk/xtremelight/cv.html) esteemed [Extreme Light](https://www.physics.gla.ac.uk/xtremelight/index.html) research group. My focus lies in AI-based and traditional computer vision for smart microscopy in biomedical research, alongside enhancing edge devices with machine learning for concealed weapon detection and 3D human motion tracking.
+Hello world! I'm a researcher with a keen interest in machine learning, computer vision and backend AI engineering. 
 
+I currently work at Microsoft Research Cambridge, on [Project Silica](https://www.microsoft.com/en-us/research/project/project-silica), focusing on high throughput, real-time GPU inference. Previously, I worked as a postdoctoral research associate at the University of Glasgow developing image enhancement machine learning models. Simultaneously I was also building an AI-based metal detection spinout - based on my earlier research associate position with Google.
 
-Completing my PhD at the University of Glasgow with Prof. Faccio and [Prof. Murray-Smith](https://www.dcs.gla.ac.uk/~rod/), I explored *"AI for time-resolved imaging: from fluorescence lifetime to single pixel time of flight."* Leveraging deep learning, I extracted spatiotemporal insights from advanced camera technologies to tackle computational super-resolution challenges in the [spatial](https://valentinkapitany.github.io/SiSIFUS/) and [temporal](https://doi.org/10.1103/PhysRevLett.126.174301) dimensions, using my background in optics to [embed physics](https://doi.org/10.1073/pnas.2214617120) into modelling.
+In my PhD at the University of Glasgow, I explored deep learning and generative AI solutions to super-resolution in the [spatial](https://valentinkapitany.github.io/SiSIFUS/) and [temporal](https://doi.org/10.1103/PhysRevLett.126.174301) dimensions, using my background in optics to [embed physics](https://doi.org/10.1073/pnas.2214617120) into modelling. My thesis was titled *"AI for time-resolved imaging: from fluorescence lifetime to single pixel time of flight"*. 
 
-Passionate about AI and computer vision, I delve into tasks ranging from super-resolution and image registration to object tracking & zero shot labelling/segmentation, style transfer and conditional image generation. In my spare time, I enjoy tinkering with open-source vision-language models.
+In my spare time, I enjoy tinkering with open-source vision-language models, cycling and reading.

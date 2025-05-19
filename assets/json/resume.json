@@ -1,9 +1,9 @@
 {
   "basics": {
     "name": "Valentin Kapitany",
-    "label": "Researcher, Computer Vision",
+    "label": "Researcher",
     "image": "",
-    "summary": ["I am a postdoc at the University of Glasgow, working at the intersection of machine learning, optics and computer vision. My work focuses on low-level image enhancements in smart biomedical microscopy (including image denoising, registration and super-resolution), and on AI explainability in smart 3D imaging and object detection (e.g. tracking information flow, identifying and removing data leakage)."],
+    "summary": ["I am an AI-focused researcher at Microsoft, specialising in model improvement and real-time applications in image processing. Through my postdoctoral research position and PhD at the University of Glasgow, I have experience in generative AI, optics and classical data science. I have experience in productizing ML systems from my roles at both Microsoft and the University of Glasgow."],
     "email": "kapitanyv@gmail.com",
     "profiles": [
       {
@@ -20,33 +20,45 @@
   },
   "work": [
     {
-      "name": "University of Glasgow",
+      "name": "Microsoft Research",
       "position": "Research Associate",
-      "url": "",
-      "startDate": "2023-03-01",
+      "url": "https://www.microsoft.com/en-us/research/project/project-silica",
+      "startDate": "2024-10-15",
       "endDate": "-",
-      "summary": "AI-enabled imaging and detection",
-      "highlights": ["Created a data-driven algorithm that improves image resolution by up to 98%, per the LPIPS metric, using noise reduction, image registration and deep-learning based super-resolution in Python.",
-                    "Improved concealed weapon detection error rate by 400% using 1300 times less memory, by optimising an AI-enabled edge-device consisting of 3D cameras (LiDAR) and radars powered by a Raspberry Pi, running TensorFlow Lite in C."]
+      "summary": "Real-time AI deployment",
+      "highlights": ["Inference optimisation: Improved AI throughput by 5x on Project Silica, a data storage initiative. I analysed, optimised and deployed GPU and CPU based pipelines at the source code, compiler (TensorRT) and kernel (PyCUDA) level.",
+                    "Productization: Evaluated best GPU platform and R&D timeline for our models.",
+                    "Cloud: Analysed and debugged Azure jobs."]
     },
     {
       "name": "University of Glasgow",
-      "position": "Teaching Assistant",
-      "url": "",
-      "startDate": "2021-09-01",
-      "endDate": "2022-04-30",
-      "summary": "Demonstrated courses for 3rd year physics laboratories",
-      "highlights": ["Laser Modes, Fraunhofer Diffraction, Polarisation, Spectroscopy",
-                     "Group projects for low-temperature thermal stabilisation"]
+      "position": "Research Associate",
+      "url": "https://www.physics.gla.ac.uk/XtremeLight/Valentin.html",
+      "startDate": "2023-03-01",
+      "endDate": "2024-10-14",
+      "summary": "AI-enabled imaging and detection",
+      "highlights": ["Computer vision: Developed and trained CNN and transformer-based models for super-resolution, image registration & denoising.",
+                     "AI Spinout: Worked on spinning out a metal detection technology, using radar & LiDAR, enabled by real-time (TensorFlow Lite) AI on a Raspberry Pi.",
+                     "AI explainability: Visualising information and uncertainty in deep neural networks."]
     },    
     {
       "name": "Google",
       "position": "Research Associate",
-      "url": "https://example.com",
+      "url": "",
       "startDate": "2021-03-01",
       "endDate": "2021-06-30",
       "summary": "Deep-learning for radar-imaging",
-      "highlights": ["Achieved world-first AI-based 3D imaging with the low-power 'SOLI' radar, through developing radar readout, optimising data storage and processing, and training then testing 3D scene estimation."]
+      "highlights": ["Developed firmware, deep learning, and a network protocol for Project SOLI – using Google’s SOLI radar as a 3D imager."]
+    },
+    {
+      "name": "University of Glasgow",
+      "position": "Graduate teaching Assistant",
+      "url": "",
+      "startDate": "2020-09-01",
+      "endDate": "2022-04-30",
+      "summary": "Teaching assistant for physics labs",
+      "highlights": ["Laser Modes, Fraunhofer Diffraction, Polarisation, Spectroscopy",
+                     "Group projects for low-temperature thermal stabilisation"]
     },
     {
       "name": "Edinburgh Tutors Ltd.",
@@ -63,8 +75,8 @@
       "url": "https://example.com",
       "startDate": "2018-06-14",
       "endDate": "2018-08-01",
-      "summary": "Developing a Raspberry Pi-based servo-mirror controller",
-      "highlights": ["Created a 50-80% cheaper alternative to galvo-mirrors for laser welding."," Built and programmed a point-and-click servo-mirror setup run by a Raspberry Pi."]
+      "summary": "Raspberry Pi-based internship",
+      "highlights": ["Created a point-and-click servo-mirror setup (for laser welding), run by a Raspberry Pi."]
     }
   ],
 
@@ -78,7 +90,7 @@
       "startDate": "2019-05-31",
       "endDate": "2023-03-01",
       "score": "",
-      "courses": ["Computer vision","Machine Learning","Optics"]
+      "courses": ["Generative AI","Optics","Traditional data science"]
     },
     {
       "institution": "University of Glasgow",
@@ -89,7 +101,7 @@
       "startDate": "2015-08-31",
       "endDate": "2019-05-31",
       "score": "First-Class Honours (20/22 GPA)",
-      "courses": ["Signal processing","Lasers and Nonlinear Optics","Numerical Methods","Waves and Diffraction"]
+      "courses": ["Physics, Mathematics, Statistics, Signal Processing"]
     },
     {
       "institution": "Johannes Gutenberg University",
@@ -134,6 +146,11 @@
     {
       "language": "Hungarian",
       "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "Danish",
+      "fluency": "beginner",
       "icon": ""
     }
   ]

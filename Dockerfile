@@ -1,58 +1,76 @@
-# Use the latest official Ubuntu base image
-FROM ubuntu:latest
+FROM ruby:slim
 
-# Set the environment variable to suppress interactive prompts during package installation
+# uncomment these if you are having this issue with the build:
+# /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
+# ARG GROUPID=901
+# ARG GROUPNAME=ruby
+# ARG USERID=901
+# ARG USERNAME=jekyll
+
 ENV DEBIAN_FRONTEND noninteractive
 
-# Metadata about the maintainer of the image
-LABEL MAINTAINER Amir Pourmand
+LABEL authors="Amir Pourmand,George Araújo" \
+      description="Docker image for al-folio academic template" \
+      maintainer="Amir Pourmand"
 
-# Update the package list and install required packages without recommended packages
-RUN apt-get update -y && apt-get install -y --no-install-recommends \
-    locales \                # For setting up localization
-    imagemagick \            # Image manipulation tool
-    ruby-full \              # Ruby programming language and dependencies
-    build-essential \        # Basic development tools (compilers, etc.)
-    zlib1g-dev \             # Zlib development library
-    jupyter-nbconvert \      # Jupyter notebook conversion tool
-    inotify-tools \          # Tools for monitoring filesystem events
-    procps && \              # System utilities
-    apt-get clean && \       # Clean up package lists
-    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*  # Remove cached files
+# uncomment these if you are having this issue with the build:
+# /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
+# add a non-root user to the image with a specific group and user id to avoid permission issues
+# RUN groupadd -r $GROUPNAME -g $GROUPID && \
+#     useradd -u $USERID -m -g $GROUPNAME $USERNAME
 
-# Uncomment the locale setting for en_US.UTF-8 in the locale.gen file and generate it
+# install system dependencies
+RUN apt-get update -y && \
+    apt-get install -y --no-install-recommends \
+        build-essential \
+        curl \
+        git \
+        imagemagick \
+        inotify-tools \
+        locales \
+        nodejs \
+        procps \
+        python3-pip \
+        zlib1g-dev && \
+    pip --no-cache-dir install --upgrade --break-system-packages nbconvert
+
+# clean up
+RUN apt-get clean && \
+    apt-get autoremove && \
+    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*  /tmp/*
+
+# set the locale
 RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
     locale-gen
 
-# Set environment variables for locale settings and Jekyll environment
-ENV LANG=en_US.UTF-8 \
+# set environment variables
+ENV EXECJS_RUNTIME=Node \
+    JEKYLL_ENV=production \
+    LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
-    LC_ALL=en_US.UTF-8 \
-    JEKYLL_ENV=production
+    LC_ALL=en_US.UTF-8
 
-# Install Jekyll and Bundler gems
-RUN gem install jekyll bundler
-
-# Create a directory for the Jekyll site
+# create a directory for the jekyll site
 RUN mkdir /srv/jekyll
 
-# Add the Gemfile to the Jekyll directory
+# copy the Gemfile and Gemfile.lock to the image
+ADD Gemfile.lock /srv/jekyll
 ADD Gemfile /srv/jekyll
 
-# Set the working directory
+# set the working directory
 WORKDIR /srv/jekyll
 
-# Install the bundle specified in the Gemfile
+# install jekyll and dependencies
+RUN gem install --no-document jekyll bundler
 RUN bundle install --no-cache
 
-# Uncomment this if you want to remove the gem cache to save space
-# && rm -rf /var/lib/gems/3.1.0/cache
-
-# Expose port 8080 for the Jekyll server
 EXPOSE 8080
 
-# Copy the entry point script to the temporary directory
 COPY bin/entry_point.sh /tmp/entry_point.sh
 
-# Set the default command to execute the entry point script
+# uncomment this if you are having this issue with the build:
+# /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
+# set the ownership of the jekyll site directory to the non-root user
+# USER $USERNAME
+
 CMD ["/tmp/entry_point.sh"]
