@@ -55,7 +55,7 @@ jobs:
       - name: Run axe 🪓
         # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
         run: |
-          npm install -g @axe-core/cli
-          npm install -g http-server
+          npm install --no-fund -g @axe-core/cli
+          npm install --no-fund -g http-server
           http-server _site/ &
           axe http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit

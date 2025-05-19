@@ -37,8 +37,8 @@ jobs:
         run: |
           pip3 install --upgrade jupyter
           npm config set fund=false --location=global
-          npm install -g mermaid.cli
-          npm install -g purgecss
+          npm install --no-fund -g mermaid.cli
+          npm install --no-fund -g purgecss
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
           purgecss -c purgecss.config.js
