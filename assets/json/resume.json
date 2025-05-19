@@ -24,7 +24,7 @@
       "position": "Research Associate",
       "url": "https://www.microsoft.com/en-us/research/project/project-silica",
       "startDate": "2024-10-15",
-      "endDate": "-",
+      "endDate": "present",
       "summary": "Real-time AI deployment",
       "highlights": ["Inference optimisation: Improved AI throughput by 5x on Project Silica, a data storage initiative. I analysed, optimised and deployed GPU and CPU based pipelines at the source code, compiler (TensorRT) and kernel (PyCUDA) level.",
                     "Productization: Evaluated best GPU platform and R&D timeline for our models.",
@@ -48,7 +48,7 @@
       "startDate": "2021-03-01",
       "endDate": "2021-06-30",
       "summary": "Deep-learning for radar-imaging",
-      "highlights": ["Developed firmware, deep learning, and a network protocol for Project SOLI – using Google’s SOLI radar as a 3D imager."]
+      "highlights": ["Developed firmware, deep learning, and a network protocol for Project SOLI, using Google’s SOLI radar as a 3D imager."]
     },
     {
       "name": "University of Glasgow",
